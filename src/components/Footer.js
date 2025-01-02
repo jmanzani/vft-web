@@ -4,12 +4,15 @@ import snoopLogo from "../../public/SNOOP_Logo 1.png";
 import emixLogo from "../../public/Emix.png";
 import Image from "next/image";
 import Link from "next/link";
+import YouTube from "./icons/youtube";
+import Twitch from "./icons/twitch";
+import XformerlyTwitter from "./icons/twitter";
+import Instagram from "./icons/instagram";
+import TikTok from "./icons/tiktok";
 
 export default function Footer() {
   return (
-
-
-    <footer class="bg-gray-200 rounded-lg shadow dark:bg-gray-900 m-4">
+    <footer class="bg-gray-200 rounded-lg shadow dark:bg-gray-900">
       <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
           <span className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
@@ -23,24 +26,27 @@ export default function Footer() {
             </Link>
           </span>
           
-          <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+          <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <a href="#" class="hover:underline me-4 md:me-6">About</a>
+              <a href="#" className="mx-4 md:mx-6"><TikTok className="w-8 h-8 mx-1 md:mx-2" /></a>
             </li>
             <li>
-              <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+              <a href="#" className="mx-4 md:mx-6"><Instagram className="w-8 h-8 mx-1 md:mx-2" /></a>
             </li>
             <li>
-              <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+              <a href="#" className=""><XformerlyTwitter className="w-8 h-8 mx-1 md:mx-2" /></a>
             </li>
             <li>
-              <a href="#" class="hover:underline">Contact</a>
+              <a href="#" className=""><Twitch className="w-10 h-10 mx-1 md:mx-2" /></a>
+            </li>
+            <li>
+              <a href="#" className=""><YouTube className="w-10 h-10 mx-1 md:mx-2" /></a>
             </li>
           </ul>
         </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">©2025 
-          <a href="./" class="hover:underline"> VFT eSports</a>. Todos los derechos reservados.
+        <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+        <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">©2025 
+          <a href="./" className="hover:underline"> VFT eSports</a>. Todos los derechos reservados.
         </span>
       </div>
     </footer>

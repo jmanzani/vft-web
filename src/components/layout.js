@@ -11,11 +11,10 @@ const layout = ({ children, description, title }) => {
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <title>{title}</title>
       </Head>
-      <div class="absolute top-0 z-[-2] h-screen w-screen bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]">
-        <Header />
-        {children}
-        <Footer />
-      </div>
+      <div class="absolute top-0 z-[-2] h-full w-full bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)] bg-[size:20px_20px]"></div>
+      <Header />
+      {children}
+      <Footer />
     </div>
   );
 };
