@@ -28,19 +28,19 @@ export default function Footer() {
           
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <a href="#" className="mx-4 md:mx-6"><TikTok className="w-8 h-8 mx-1 md:mx-2" /></a>
+              <a href="https://www.tiktok.com/@vft.esports" target="_blank" className="mx-4 md:mx-6"><TikTok className="w-8 h-8 mx-1 md:mx-2" /></a>
             </li>
             <li>
-              <a href="#" className="mx-4 md:mx-6"><Instagram className="w-8 h-8 mx-1 md:mx-2" /></a>
+              <a href="https://www.instagram.com/vft.esports" target="_blank" className="mx-4 md:mx-6"><Instagram className="w-8 h-8 mx-1 md:mx-2" /></a>
             </li>
             <li>
-              <a href="#" className=""><XformerlyTwitter className="w-8 h-8 mx-1 md:mx-2" /></a>
+              <a href="https://x.com/vft_esports" target="_blank" className=""><XformerlyTwitter className="w-8 h-8 mx-1 md:mx-2" /></a>
             </li>
             <li>
-              <a href="#" className=""><Twitch className="w-10 h-10 mx-1 md:mx-2" /></a>
+              <a href="https://twitch.tv/vft_esports" target="_blank" className=""><Twitch className="w-10 h-10 mx-1 md:mx-2" /></a>
             </li>
             <li>
-              <a href="#" className=""><YouTube className="w-10 h-10 mx-1 md:mx-2" /></a>
+              <a href="https://www.youtube.com/@vft_esports" target="_blank" className=""><YouTube className="w-10 h-10 mx-1 md:mx-2" /></a>
             </li>
           </ul>
         </div>

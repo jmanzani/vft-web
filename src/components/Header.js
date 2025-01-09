@@ -111,7 +111,7 @@ export default function Header() {
             >
               <li>
                 <a
-                  href="#"
+                  href="/"
                   className="flex items-center py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 lg:hover:bg-transparent lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
                   aria-current="page"
                 >
@@ -120,7 +120,7 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/sobre-nosotros"
                   className="flex items-center py-2 pr-4 pl-3 text-gray-700 hover:bg-gray-50 lg:hover:bg-transparent lg:hover:text-primary-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent"
                   aria-current="page"
                 >
@@ -150,7 +150,7 @@ export default function Header() {
                   <ul className="absolute bg-gray-200 dark:bg-gray-700 rounded shadow-lg lg:w-48 mt-2 z-10">
                     <li>
                       <a
-                        href="#"
+                        href="/secciones/iracing"
                         className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600"
                       >
                         iRacing
@@ -158,7 +158,7 @@ export default function Header() {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/secciones/assetto"
                         className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600"
                       >
                         Assetto Corsa
@@ -166,7 +166,7 @@ export default function Header() {
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="/secciones/fifa"
                         className="block px-4 py-2 text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600"
                       >
                         FIFA/EA Sports FC
